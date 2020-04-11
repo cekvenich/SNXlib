@@ -14,9 +14,9 @@ buildscript {
 plugins {
     id 'com.github.johnrengelman.shadow' version '5.2.0'
     id 'java-library'
+    id 'jacoco'
 }
 apply plugin: 'java'
-apply plugin: "eclipse"
 apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'maven'
 repositories {
